@@ -1,0 +1,26 @@
+.BackgroundFirst{
+    background-color: rgb(230, 227, 227);
+    width: 100vw;
+    height: 206rem;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+
+
+.BoxColor{
+    position: relative;
+    background-color: rgb(253, 202, 63);
+    width: 20rem;
+    height: 20rem;
+}
+
+.BlackBox{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative; 
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.986); 
+    bottom: 17rem;
+    left: 7rem;
+}

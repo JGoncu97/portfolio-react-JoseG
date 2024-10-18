@@ -1,0 +1,20 @@
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    
+}
+
+.ContainerFH{
+    width: 13rem;
+    height: 40rem;
+    
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}

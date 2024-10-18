@@ -1,0 +1,13 @@
+.Home{
+    position: relative;
+    background-color: white;
+    width: 110rem;
+    height: 200rem;
+    bottom: 18rem;
+    left: 2rem;
+}
+
+.ContentSon{
+    width: 40rem;
+    height: 40rem;
+}

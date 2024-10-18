@@ -1,7 +1,17 @@
-import React from 'react'
+import { Header } from '../../Layouts/Header/Header'
+import './Home.css'
+
+
+
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div className='Home'>
+
+        <div className='ContentSon'>
+          <Header/>
+        </div>
+      
+    </div>
   )
 }
