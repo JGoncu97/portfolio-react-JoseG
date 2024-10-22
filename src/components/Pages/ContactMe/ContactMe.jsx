@@ -8,14 +8,17 @@ import './ContactStyle.css'
 export const ContactMe = () => {
   return (
     <div className='ContainerFH'>
+      <span className="separator"></span>
         <div className='containerHeader'>
           <Contact title='Phone' content='314-6739183' />
           <img src={PhoneIcon} alt="" />
         </div>
+        <span className="separator"></span>
         <div className='containerHeader'>
           <Contact title='Email' content='jggc1197@gmail.com' />
           <img src={EmailIcon} alt="" />
         </div>
+        <span className="separator"></span>
     </div>
   )
 }
