@@ -1,0 +1,43 @@
+.Profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem;
+    /* border: 0.5rem solid black; */
+    width: 191.2vh;
+    height: 70vh;
+
+    
+}
+
+.ContainerImg {
+    position: relative; 
+    display: flex;
+    align-items: flex-end; 
+}
+
+.ProfileImg {
+    width: 49rem;
+    height: 37rem;
+    position: relative; 
+    z-index: 1; 
+    margin-right: 0rem;
+}
+
+.BoxYellow {
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(253, 202, 63);
+    position: absolute; 
+    top: 30rem; 
+    right: 44rem;
+}
+
+.BoxGray {
+    width: 8rem;
+    height: 8rem;
+    background-color: #808080;
+    position: absolute; 
+    bottom: 30rem; 
+    left: 35rem; 
+}
