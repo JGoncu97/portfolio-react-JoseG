@@ -5,8 +5,8 @@ export const Estudies = ({Date,Name,Title}) => {
   return (
     <div className='EstudiesProfile'>
         <p className='Date'>{Date}</p>
-        <h4 className='Institution'>{Name}</h4>
-        <p className='Tittle'>{Title}</p>
+        <h4 className='Institution'>{Title}</h4>
+        <p className='Title'>{Name}</p>
     </div>
   )
 }

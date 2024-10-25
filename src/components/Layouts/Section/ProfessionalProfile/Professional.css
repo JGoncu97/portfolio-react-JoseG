@@ -1,10 +1,38 @@
 .ContainerProfessional{
-    border: 0.5rem solid black;
-    width: 183vh;
-    height: 127.3rem;
+    /* border: 0.5rem solid black; */
+    width: 109rem;
+    height: 50rem;
 }
 
 .Estudies{
-
+    width: 54.5rem;
+    
    
+}
+
+.ContainerExperiences{
+    /* border: 0.5rem solid black; */
+    width: 54.5rem;
+}
+
+.ContainerJobs{
+    display: flex;
+}
+
+.titleEducation{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    
+}
+
+
+
+.titleWork{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    margin-top: 3rem;
 }

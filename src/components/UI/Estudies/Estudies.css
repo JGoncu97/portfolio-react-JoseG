@@ -1,5 +1,24 @@
 .EstudiesProfile{
-    border: 0.5rem solid black;
-    width: 20rem;
-    height: 20rem;
+    
+    align-content: center;
+    /* border: 0.5rem solid black; */
+    width: 50.5rem;
+    height: 9rem;
+    padding-left: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Institution{
+    font-size: 2rem;
+    margin: 0.2rem
+}
+
+.Title{
+    color:#808080;
+}
+
+.Date{
+    font-weight: bold;
+    border-bottom: 0.3rem solid rgb(253, 202, 63);
+    display: inline;
 }
