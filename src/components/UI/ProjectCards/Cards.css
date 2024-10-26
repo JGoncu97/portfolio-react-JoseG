@@ -1,0 +1,32 @@
+.Cards {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 16px;
+    margin: 16px;
+    text-align: center; 
+    width: 20rem;
+    height: 26rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.CardsImg {
+    width: 100%;
+    border-radius: 8px; 
+    height: 15rem;
+    object-fit: cover; 
+}
+
+.Link {
+
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 8px 12px;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 1rem;
+    text-decoration: none; 
+
+   
+}
