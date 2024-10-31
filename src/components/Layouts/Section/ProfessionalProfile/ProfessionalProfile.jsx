@@ -4,6 +4,15 @@ import { Estudies } from '../../../UI/Estudies/Estudies'
 import { Experience } from '../../../UI/WorkExperience/Experience'
 
 export const ProfessionalProfile = () => {
+  /*
+  const containerStyles = 'w-[109rem] h-[40rem]';
+  const flexContainerStyles = 'flex';
+  const studiesStyles = 'w-[54.5rem]';
+  const experienceStyles = 'w-[54.5rem]';
+  const titleStyles = 'text-3xl font-bold pl-10';
+  const titleColor1 = 'text-color1'; 
+  const titleColor2 = 'text-color2';
+  */
   return (
     <div className='ContainerProfessional'>
       <div className='ContainerJobs'>
