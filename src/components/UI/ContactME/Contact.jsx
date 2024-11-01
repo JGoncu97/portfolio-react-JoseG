@@ -2,6 +2,8 @@ import React from 'react'
 import './Contact.css'
 
 export const Contact = ({title,content}) => {
+  
+
   return (
     <div className='Contact'>
         <div>
