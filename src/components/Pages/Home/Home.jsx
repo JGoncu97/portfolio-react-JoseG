@@ -9,10 +9,15 @@ import './Home.css'
 
 
 export const Home = () => {
-  return (
-    <div className='Home'>
 
-        <div className='ContentSon'>
+  const home = "relative bg-white w-[110rem] h-[200rem] mb-[18rem] ml-8";
+const contentSon = "w-[40rem] h-[40rem]";
+
+
+  return (
+    <div className={home}>
+
+        <div className={contentSon}>
           <Header/>
           <Profile />
           <ProfessionalProfile/>
