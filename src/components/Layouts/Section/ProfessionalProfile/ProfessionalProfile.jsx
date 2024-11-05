@@ -6,8 +6,8 @@ import { Experience } from '../../../UI/WorkExperience/Experience'
 export const ProfessionalProfile = () => {
   
   const containerProfessional = 'w-[109rem] h-[40rem]';
-  const containerJobs= 'flex';
-  const estudies = 'w-[54.5rem]';
+  const containerJobs= 'flex border-2 border-black border-solid p-5';
+  const estudies = 'w-[54.5rem] border-2 border-black border-solid';
   const containerExperiences= 'w-[54.5rem]';
   const titleEducation = 'text-3xl font-bold pl-10 font-sans';
   const titleWork = 'text-3xl font-bold pl-10 font-sans mt-12'; 

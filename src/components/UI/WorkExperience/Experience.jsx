@@ -3,11 +3,11 @@ import './Experience.css'
 
 export const Experience = ({Date,PositionJob,Company,Description}) => {
 
-  const experienceJob = "flex font-segoe";
+  const experienceJob = "flex font-segoe ";
 
-  const containerJob1 = "w-[10rem] h-auto p-[0.6rem]";
+  const containerJob1 = "w-[10rem] h-auto p-[0.6rem] border-2 border-black border-solid";
   
-  const containerJob2 = "w-[43rem] border-l-2 border-gray-500";
+  const containerJob2 = "w-[43rem] border-l-2 border-gray-500 border-2 border-black border-solid";
   
   const positionJob = "text-[2rem] pl-12 font-bold mb-1 mt-0";
   
