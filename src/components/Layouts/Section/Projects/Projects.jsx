@@ -8,10 +8,15 @@ import ApiRickandMorty from '../../../../assets/images/RickandMorty.png'
 import JuegoTriqui from '../../../../assets/images/JuegoTriqui.png'
 import Juego from '../../../../assets/images/JuegoPPT.png'
 export const Projects = () => {
+
+  const projects = "w-[105.5rem] h-[75.4rem] p-8";
+  const titleProjects = "text-center text-[3.5rem] font-bold font-sans";
+  const containerCards = "flex justify-around p-4 flex-wrap content-start h-auto w-[103rem]";
+
   return (
-    <div className='Projects'>
-            <h2 className='TittleProjects'><span className='color1'>Proy</span><span className='color2'>ectos</span></h2>
-            <div className='containerCards'>
+    <div className={projects}>
+            <h2 className={titleProjects} ><span className='color1'>Proy</span><span className='color2'>ectos</span></h2>
+            <div className={containerCards}>
                 <ProjectCards nombre={'MiniMarket ApiRest'} url={'https://market-place-jose-gonzalez.vercel.app/'} imagen={MarketPlace}/>
                 <ProjectCards nombre={'Formulario Email'} url={'https://formulario-email-js.vercel.app/'} imagen={FormEmail}/>
                 <ProjectCards nombre={'Generador de Tarjetas Simsonp'} url={'https://generador-tarjetas-simsonp.vercel.app/'} imagen={Cards}/>

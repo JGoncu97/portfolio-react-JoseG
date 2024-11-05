@@ -1,9 +1,15 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{html,js,jsx}"], // Asegúrate de incluir .jsx
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        color1: '#f00',
+        color2: '#00f',
+      },
+      fontFamily: {
+        sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};
