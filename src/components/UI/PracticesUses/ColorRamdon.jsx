@@ -22,11 +22,13 @@ export const ColorRandom = () => {
     backgroundColor: `rgb(${color1},${color2},${color3})`,
   }
  
-  const box = `border-solid border-2 border-black w-[100vw] h-[100vh] `;
+  const box = `border-solid border-2 border-black w-[100vw] h-[100vh] flex justify-center items-center `;
+  const btnColor= 'border-solid border-2 border-black rounded-[1rem]  h-[2rem] bg-red-400' ;
+
   return (
     <>
       <div style={fondoColor} className={box}>
-        <button onClick={changeColor}>Cambiar Color</button>
+        <button className={btnColor} onClick={changeColor}>Cambiar Color</button>
       </div>
     </>
   );
