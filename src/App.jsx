@@ -4,6 +4,7 @@ import './App.css'
 import { HUseState } from './components/UI/PracticesUses/HUseState'
 import { ColorRandom } from './components/UI/PracticesUses/ColorRamdon'
 import { TallerUsesState } from './components/UI/PracticesUses/TallerUsesState'
+import { Colors } from './helpers/Colors'
 
 
 
@@ -19,7 +20,8 @@ export const App =()=> {
       {/* <FirstBackground/> */}
         {/* <HUseState/> */}
         {/* <ColorRandom/> */}
-        <TallerUsesState/>
+        {/* <TallerUsesState/> */}
+        <Colors/>
 
     </div>
       
