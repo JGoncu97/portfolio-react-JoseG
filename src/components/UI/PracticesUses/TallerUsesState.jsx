@@ -202,15 +202,15 @@ export const TallerUsesState = () => {
                 
             </div>
             <div className='border-solid border-2 border-black w-[20rem] h-[20rem] bg-white relative text-center'>
-                    <h2>Cronometro</h2>
+                    <h2 style={btnLikes}>Cronometro</h2>
                 <div className='relative left-[9rem]'>
                     <div className='flex'>
-                    <h2>{hora} : {minuto} : {segundos}</h2>
+                    <h2 style={btnLikes}>{hora} : {minuto} : {segundos}</h2>
                     </div>
                 </div>
-                <button onClick={cronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Iniciar</button>
-                <button onClick={pararCronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Parar</button>
-                <button onClick={resetCronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Resetear</button>
+                <button style={btnLikes} onClick={cronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Iniciar</button>
+                <button style={btnLikes} onClick={pararCronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Parar</button>
+                <button style={btnLikes} onClick={resetCronometro} className='border-solid border-2 border-black w-[8rem] rounded-[2rem] relative top-[1rem] '>Resetear</button>
 
             </div>
     </div>
