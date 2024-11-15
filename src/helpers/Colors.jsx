@@ -8,8 +8,8 @@ export const Colors = () => {
 
   return (
     
-    <div className={`w-full h-[57rem] border-solid border-black border-[0.5rem] ${bgColors}`} >
-        <div className='flex border-solid border-red border-[0.5rem]'>
+    <div className={`flex w-full h-[57rem] border-solid border-black border-[0.5rem] ${bgColors}`} >
+        <div className='flex border-solid border-red border-[0.5rem] w-[20rem] h-[4rem] bg-white'>
         <label className='mr-[1rem]'> Elije el color de fondo</label>
         <select 
            
